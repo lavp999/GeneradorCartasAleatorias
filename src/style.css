@@ -1,1 +1,34 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-color: green;
+}
+
+.card {
+  margin: 30px;
+  width: 200px;
+  height: 350px;
+}
+
+.cabecera {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: 50px;
+}
+
+.cuerpo {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: 250px;
+  align-items: center;
+}
+
+.pie {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: 50px;
+  text-align: right;
+}
