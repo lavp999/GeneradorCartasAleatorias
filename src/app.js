@@ -32,10 +32,10 @@ window.onload = function() {
 
   const miPaloSup = document.getElementById("paloSup");
   let nPalo = aleatorio(0, 3);
-  miPaloSup.innerHTML = `<h1> ${misPalos[nPalo]} </h1>`;
+  miPaloSup.innerHTML = `<h1>${misPalos[nPalo]}</h1>`;
 
   const miPaloInf = document.getElementById("paloInf");
-  miPaloInf.innerHTML = `${misPalos[nPalo]}`;
+  miPaloInf.innerHTML = `<h1>${misPalos[nPalo]}</h1>`;
 
   const micarta = document.getElementById("carta");
   micarta.className = "mx-auto card " + misColores[nPalo];
