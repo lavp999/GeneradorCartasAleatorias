@@ -35,7 +35,10 @@ window.onload = function() {
   miPaloSup.innerHTML = `<h1>${misPalos[nPalo]}</h1>`;
 
   const miPaloInf = document.getElementById("paloInf");
-  miPaloInf.innerHTML = `<h1>${misPalos[nPalo]}</h1>`;
+  //miPaloInf.innerHTML = `<h1>${misPalos[nPalo]}</h1>`;
+  miPaloInf.innerHTML = `<h1 style= "-webkit-transform:rotate(-180deg)" class="float-end">${misPalos[nPalo]}</h1>`;
+
+  //miPaloSup.innerHTML = `<h1 style= "-webkit-transform:rotate(-180deg)"id="icono-der"class="float-end my-3 mx-4">${misPalos[nPalo]}</h1>`;
 
   const micarta = document.getElementById("carta");
   micarta.className = "mx-auto card " + misColores[nPalo];
